@@ -26,6 +26,7 @@ charset-normalizer = "*"
 flower = "*"
 render = "*"
 vercel = "*"
+pymysql = "*"
 
 [dev-packages]
 

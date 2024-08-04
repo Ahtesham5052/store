@@ -224,3 +224,9 @@ UnboundLocalError: cannot access local variable 'response' where it is not assoc
 2024-08-04 06:20:45,014 (WARNING) - django.request - Not Found: /favicon.ico
 2024-08-04 06:20:52,376 (WARNING) - django.request - Unauthorized: /store/customers/me/
 2024-08-04 06:32:32,642 (WARNING) - django.request - Unauthorized: /store/customers/me/
+2024-08-04 11:41:35,243 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-04 11:43:40,665 (INFO) - django.utils.autoreload - /mnt/c/Users/Ahtesham/Desktop/store/store/settings/common.py changed, reloading.
+2024-08-04 11:43:43,316 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-04 11:43:57,953 (WARNING) - django.request - Not Found: /favicon.ico
+2024-08-04 11:48:23,177 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-04 11:51:07,546 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
