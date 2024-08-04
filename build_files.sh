@@ -1,18 +1,23 @@
 #!/bin/bash
 
-# Install Python 3.11 without sudo if not already installed
-if ! command -v python3.11 &> /dev/null
+# Check if pyenv is installed
+if ! command -v pyenv &> /dev/null
 then
-    echo "Python 3.11 not found. Installing..."
-    # Installing pyenv to manage Python versions
+    echo "pyenv not found. Installing..."
     curl https://pyenv.run | bash
     export PATH="$HOME/.pyenv/bin:$HOME/.pyenv/shims:$HOME/.pyenv/versions"
     eval "$(pyenv init --path)"
     eval "$(pyenv init -)"
     eval "$(pyenv virtualenv-init -)"
-    pyenv install 3.11.0
-    pyenv global 3.11.0
 fi
+
+# Install Python 3.11 if not already installed
+if ! pyenv versions | grep -q 3.11.0; then
+    echo "Python 3.11 not found. Installing..."
+    pyenv install 3.11.0
+fi
+
+pyenv global 3.11.0
 
 # Check if mysql_config is available
 if ! command -v mysql_config &> /dev/null
