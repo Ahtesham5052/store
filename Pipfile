@@ -18,17 +18,14 @@ django-redis = "*"
 whitenoise = "*"
 gunicorn = "*"
 waitress = "*"
-mysqlclient = "*"
+pymysql = "*"
 django-debug-toolbar = "*"
 async-timeout = "*"
-chardet = "*"
 charset-normalizer = "*"
 flower = "*"
 render = "*"
-vercel = "*"
-pymysql = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.11"
+python_version = "3.11"  # Verify compatibility with Vercel
