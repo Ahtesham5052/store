@@ -24,6 +24,7 @@ async-timeout = "*"
 chardet = "*"
 charset-normalizer = "*"
 flower = "*"
+render = "*"
 
 [dev-packages]
 
