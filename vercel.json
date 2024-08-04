@@ -5,8 +5,8 @@
     "version": 2,
     "env": {
       "PYTHON_VERSION": "3.11",
-      "MYSQLCLIENT_CFLAGS": "",
-      "MYSQLCLIENT_LDFLAGS": ""
+      "MYSQLCLIENT_CFLAGS": "-I/usr/include/mysql",
+      "MYSQLCLIENT_LDFLAGS": "-L/usr/lib/mysql -lmysqlclient"
     }
   }
   

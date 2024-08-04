@@ -14,14 +14,12 @@ then
     pyenv global 3.11.0
 fi
 
-# Install MySQL development headers
+# Check if mysql_config is available
 if ! command -v mysql_config &> /dev/null
 then
-    echo "mysql_config not found. Installing MySQL development headers..."
-    curl -LO https://dev.mysql.com/get/mysql-apt-config_0.8.22-1_all.deb
-    sudo dpkg -i mysql-apt-config_0.8.22-1_all.deb
-    sudo apt-get update
-    sudo apt-get install -y libmysqlclient-dev
+    echo "mysql_config not found. Setting MYSQLCLIENT_CFLAGS and MYSQLCLIENT_LDFLAGS manually..."
+    export MYSQLCLIENT_CFLAGS="-I/usr/include/mysql"
+    export MYSQLCLIENT_LDFLAGS="-L/usr/lib/mysql -lmysqlclient"
 fi
 
 # Create virtual environment
