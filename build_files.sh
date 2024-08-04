@@ -14,6 +14,16 @@ then
     pyenv global 3.11.0
 fi
 
+# Install MySQL development headers
+if ! command -v mysql_config &> /dev/null
+then
+    echo "mysql_config not found. Installing MySQL development headers..."
+    curl -LO https://dev.mysql.com/get/mysql-apt-config_0.8.22-1_all.deb
+    sudo dpkg -i mysql-apt-config_0.8.22-1_all.deb
+    sudo apt-get update
+    sudo apt-get install -y libmysqlclient-dev
+fi
+
 # Create virtual environment
 python3.11 -m venv venv
 
