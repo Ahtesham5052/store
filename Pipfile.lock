@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "168c21a4477f419c1a46f80787efad60b66b2f542ebea8480016f259108037f4"
+            "sha256": "3672c78318a048cd9fd503d611939aed6df311b8e4fc86fd7e15458a0230d629"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -832,6 +832,15 @@
             ],
             "markers": "python_version >= '3.8'",
             "version": "==2.2.2"
+        },
+        "vercel": {
+            "hashes": [
+                "sha256:053d634ac542b59af102251a5135a1654a74a8f5a37c6c97da61171202b60021",
+                "sha256:dc7de7c73df76bbb8e7c30131125997a8aa74e126183d53e7dbd6e76931d42b6"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.7' and python_version < '4.0'",
+            "version": "==0.2.1"
         },
         "vine": {
             "hashes": [

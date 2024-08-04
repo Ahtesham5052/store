@@ -25,6 +25,7 @@ chardet = "*"
 charset-normalizer = "*"
 flower = "*"
 render = "*"
+vercel = "*"
 
 [dev-packages]
 
