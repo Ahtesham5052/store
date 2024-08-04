@@ -1,0 +1,226 @@
+2024-07-20 17:39:56,400 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-07-20 17:40:24,208 (INFO) - django.utils.autoreload - C:\Users\Ahtesham\Desktop\store\playground\urls.py changed, reloading.
+2024-07-20 17:40:25,594 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-07-20 17:40:44,873 (INFO) - django.utils.autoreload - C:\Users\Ahtesham\Desktop\store\playground\urls.py changed, reloading.
+2024-07-20 17:40:46,390 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-07-20 17:40:59,111 (INFO) - django.utils.autoreload - C:\Users\Ahtesham\Desktop\store\playground\urls.py changed, reloading.
+2024-07-20 17:41:00,522 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-07-20 17:41:03,278 (INFO) - django.utils.autoreload - C:\Users\Ahtesham\Desktop\store\playground\urls.py changed, reloading.
+2024-07-20 17:41:04,736 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-07-20 17:41:07,711 (INFO) - django.utils.autoreload - C:\Users\Ahtesham\Desktop\store\playground\urls.py changed, reloading.
+2024-07-20 17:41:09,130 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-07-20 17:41:22,768 (ERROR) - django.request - Internal Server Error: /playground/hello/
+Traceback (most recent call last):
+  File "C:\Users\Ahtesham\.virtualenvs\store-CT2A7-rJ\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ahtesham\.virtualenvs\store-CT2A7-rJ\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: APIView.as_view() takes 1 positional argument but 2 were given
+2024-07-20 17:41:36,660 (INFO) - django.utils.autoreload - C:\Users\Ahtesham\Desktop\store\playground\urls.py changed, reloading.
+2024-07-20 17:41:38,117 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-07-20 17:41:39,548 (INFO) - playground.views - Calling httpbin
+2024-07-20 17:41:39,649 (ERROR) - django.request - Internal Server Error: /playground/hello/
+Traceback (most recent call last):
+  File "C:\Users\Ahtesham\.virtualenvs\store-CT2A7-rJ\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ahtesham\.virtualenvs\store-CT2A7-rJ\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ahtesham\.virtualenvs\store-CT2A7-rJ\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ahtesham\.virtualenvs\store-CT2A7-rJ\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ahtesham\.virtualenvs\store-CT2A7-rJ\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ahtesham\.virtualenvs\store-CT2A7-rJ\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Ahtesham\.virtualenvs\store-CT2A7-rJ\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Ahtesham\.virtualenvs\store-CT2A7-rJ\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ahtesham\Desktop\store\playground\views.py", line 16, in get
+    response = response.get('https://httpbin.org/delay/2')
+               ^^^^^^^^
+UnboundLocalError: cannot access local variable 'response' where it is not associated with a value
+2024-07-20 17:41:40,552 (INFO) - playground.views - Calling httpbin
+2024-07-20 17:41:40,602 (ERROR) - django.request - Internal Server Error: /playground/hello/
+Traceback (most recent call last):
+  File "C:\Users\Ahtesham\.virtualenvs\store-CT2A7-rJ\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ahtesham\.virtualenvs\store-CT2A7-rJ\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ahtesham\.virtualenvs\store-CT2A7-rJ\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ahtesham\.virtualenvs\store-CT2A7-rJ\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ahtesham\.virtualenvs\store-CT2A7-rJ\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ahtesham\.virtualenvs\store-CT2A7-rJ\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Ahtesham\.virtualenvs\store-CT2A7-rJ\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Ahtesham\.virtualenvs\store-CT2A7-rJ\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ahtesham\Desktop\store\playground\views.py", line 16, in get
+    response = response.get('https://httpbin.org/delay/2')
+               ^^^^^^^^
+UnboundLocalError: cannot access local variable 'response' where it is not associated with a value
+2024-07-20 17:41:44,088 (INFO) - django.utils.autoreload - C:\Users\Ahtesham\Desktop\store\playground\urls.py changed, reloading.
+2024-07-20 17:41:45,708 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-07-20 17:41:48,046 (INFO) - django.utils.autoreload - C:\Users\Ahtesham\Desktop\store\playground\urls.py changed, reloading.
+2024-07-20 17:41:49,454 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-07-20 17:43:05,128 (INFO) - django.utils.autoreload - C:\Users\Ahtesham\Desktop\store\playground\urls.py changed, reloading.
+2024-07-20 17:43:08,728 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-07-20 17:43:21,217 (INFO) - playground.views - Calling httpbin
+2024-07-20 17:43:21,332 (ERROR) - django.request - Internal Server Error: /playground/hello/
+Traceback (most recent call last):
+  File "C:\Users\Ahtesham\.virtualenvs\store-CT2A7-rJ\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ahtesham\.virtualenvs\store-CT2A7-rJ\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ahtesham\.virtualenvs\store-CT2A7-rJ\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ahtesham\.virtualenvs\store-CT2A7-rJ\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ahtesham\.virtualenvs\store-CT2A7-rJ\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ahtesham\.virtualenvs\store-CT2A7-rJ\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Ahtesham\.virtualenvs\store-CT2A7-rJ\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Ahtesham\.virtualenvs\store-CT2A7-rJ\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ahtesham\Desktop\store\playground\views.py", line 16, in get
+    response = response.get('https://httpbin.org/delay/2')
+               ^^^^^^^^
+UnboundLocalError: cannot access local variable 'response' where it is not associated with a value
+2024-07-20 17:43:44,020 (INFO) - django.utils.autoreload - C:\Users\Ahtesham\Desktop\store\playground\views.py changed, reloading.
+2024-07-20 17:43:46,359 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-07-20 17:43:49,147 (INFO) - django.utils.autoreload - C:\Users\Ahtesham\Desktop\store\playground\views.py changed, reloading.
+2024-07-20 17:43:50,712 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-07-20 17:43:51,688 (INFO) - playground.views - Calling httpbin
+2024-07-20 17:44:02,758 (CRITICAL) - playground.views - httpbin is offline
+2024-07-20 17:44:04,507 (INFO) - playground.views - Calling httpbin
+2024-07-20 17:44:15,543 (CRITICAL) - playground.views - httpbin is offline
+2024-07-20 17:51:37,188 (INFO) - django.utils.autoreload - C:\Users\Ahtesham\Desktop\store\manage.py changed, reloading.
+2024-07-20 20:35:35,419 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-07-20 21:00:01,040 (INFO) - waitress - Serving on http://0.0.0.0:8080
+2024-07-20 21:00:28,846 (INFO) - waitress - Serving on http://0.0.0.0:8000
+2024-08-01 15:43:40,221 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-01 16:25:44,288 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-01 16:25:49,657 (WARNING) - django.request - Not Found: /favicon.ico
+2024-08-02 17:15:03,988 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-02 17:15:55,645 (INFO) - django.utils.autoreload - /mnt/c/Users/Ahtesham/Desktop/store/playground/views.py changed, reloading.
+2024-08-02 17:16:00,754 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-02 17:16:34,709 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-02 17:17:18,234 (INFO) - django.utils.autoreload - /mnt/c/Users/Ahtesham/Desktop/store/playground/urls.py changed, reloading.
+2024-08-02 17:17:19,639 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-02 17:17:40,319 (INFO) - django.utils.autoreload - /mnt/c/Users/Ahtesham/Desktop/store/playground/urls.py changed, reloading.
+2024-08-02 17:17:41,892 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-02 17:17:49,590 (INFO) - django.utils.autoreload - /mnt/c/Users/Ahtesham/Desktop/store/playground/urls.py changed, reloading.
+2024-08-02 17:17:50,809 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-02 17:19:32,704 (INFO) - django.utils.autoreload - /mnt/c/Users/Ahtesham/Desktop/store/playground/urls.py changed, reloading.
+2024-08-02 17:19:34,114 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-02 17:20:00,497 (INFO) - django.utils.autoreload - /mnt/c/Users/Ahtesham/Desktop/store/playground/urls.py changed, reloading.
+2024-08-02 17:20:02,099 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-02 17:20:12,869 (INFO) - django.utils.autoreload - /mnt/c/Users/Ahtesham/Desktop/store/playground/urls.py changed, reloading.
+2024-08-02 17:20:14,336 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-02 17:20:21,337 (WARNING) - django.request - Not Found: /favicon.ico
+2024-08-02 17:24:58,351 (INFO) - django.utils.autoreload - /mnt/c/Users/Ahtesham/Desktop/store/store/settings/common.py changed, reloading.
+2024-08-02 17:25:01,379 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-02 17:25:18,029 (INFO) - django.utils.autoreload - /mnt/c/Users/Ahtesham/Desktop/store/store/settings/common.py changed, reloading.
+2024-08-02 17:25:27,510 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-02 17:29:33,701 (INFO) - django.utils.autoreload - /home/ahtesham/.local/share/virtualenvs/store-7HcsY6Hr/lib/python3.11/site-packages/django_filters/__init__.py changed, reloading.
+2024-08-02 17:29:35,218 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-02 17:31:47,615 (INFO) - flower.command - Visit me at http://0.0.0.0:5555
+2024-08-02 17:31:47,645 (INFO) - flower.command - Broker: redis://localhost:6379/1
+2024-08-02 17:31:47,660 (INFO) - flower.command - Registered tasks: 
+['celery.accumulate',
+ 'celery.backend_cleanup',
+ 'celery.chain',
+ 'celery.chord',
+ 'celery.chord_unlock',
+ 'celery.chunks',
+ 'celery.group',
+ 'celery.map',
+ 'celery.starmap',
+ 'playground.tasks.notify_customers']
+2024-08-02 17:31:47,694 (INFO) - kombu.mixins - Connected to redis://localhost:6379/1
+2024-08-02 17:31:48,851 (WARNING) - flower.inspector - Inspect method scheduled failed
+2024-08-02 17:31:48,853 (WARNING) - flower.inspector - Inspect method revoked failed
+2024-08-02 17:31:48,855 (WARNING) - flower.inspector - Inspect method registered failed
+2024-08-02 17:31:48,856 (WARNING) - flower.inspector - Inspect method active_queues failed
+2024-08-02 17:31:48,857 (WARNING) - flower.inspector - Inspect method active failed
+2024-08-02 17:31:48,860 (WARNING) - flower.inspector - Inspect method conf failed
+2024-08-02 17:31:48,861 (WARNING) - flower.inspector - Inspect method reserved failed
+2024-08-02 17:31:48,865 (WARNING) - flower.inspector - Inspect method stats failed
+2024-08-02 17:32:59,025 (INFO) - flower.command - Visit me at http://0.0.0.0:5555
+2024-08-02 17:32:59,038 (INFO) - flower.command - Broker: redis://localhost:6379/1
+2024-08-02 17:32:59,051 (INFO) - flower.command - Registered tasks: 
+['celery.accumulate',
+ 'celery.backend_cleanup',
+ 'celery.chain',
+ 'celery.chord',
+ 'celery.chord_unlock',
+ 'celery.chunks',
+ 'celery.group',
+ 'celery.map',
+ 'celery.starmap',
+ 'playground.tasks.notify_customers']
+2024-08-02 17:32:59,084 (INFO) - kombu.mixins - Connected to redis://localhost:6379/1
+2024-08-02 17:33:00,241 (WARNING) - flower.inspector - Inspect method active failed
+2024-08-02 17:33:00,246 (WARNING) - flower.inspector - Inspect method registered failed
+2024-08-02 17:33:00,249 (WARNING) - flower.inspector - Inspect method reserved failed
+2024-08-02 17:33:00,261 (WARNING) - flower.inspector - Inspect method stats failed
+2024-08-02 17:33:00,273 (WARNING) - flower.inspector - Inspect method active_queues failed
+2024-08-02 17:33:00,266 (WARNING) - flower.inspector - Inspect method scheduled failed
+2024-08-02 17:33:00,275 (WARNING) - flower.inspector - Inspect method conf failed
+2024-08-02 17:33:00,274 (WARNING) - flower.inspector - Inspect method revoked failed
+2024-08-02 17:34:20,544 (INFO) - django.utils.autoreload - /mnt/c/Users/Ahtesham/Desktop/store/store/settings/common.py changed, reloading.
+2024-08-02 17:34:24,085 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-02 17:36:04,273 (INFO) - flower.command - Visit me at http://0.0.0.0:5555
+2024-08-02 17:36:04,291 (INFO) - flower.command - Broker: redis://localhost:6379/1
+2024-08-02 17:36:04,311 (INFO) - flower.command - Registered tasks: 
+['celery.accumulate',
+ 'celery.backend_cleanup',
+ 'celery.chain',
+ 'celery.chord',
+ 'celery.chord_unlock',
+ 'celery.chunks',
+ 'celery.group',
+ 'celery.map',
+ 'celery.starmap',
+ 'playground.tasks.notify_customers']
+2024-08-02 17:36:04,352 (INFO) - kombu.mixins - Connected to redis://localhost:6379/1
+2024-08-02 17:36:05,471 (WARNING) - flower.inspector - Inspect method active_queues failed
+2024-08-02 17:36:05,473 (WARNING) - flower.inspector - Inspect method registered failed
+2024-08-02 17:36:05,477 (WARNING) - flower.inspector - Inspect method revoked failed
+2024-08-02 17:36:05,490 (WARNING) - flower.inspector - Inspect method conf failed
+2024-08-02 17:36:05,493 (WARNING) - flower.inspector - Inspect method stats failed
+2024-08-02 17:36:05,502 (WARNING) - flower.inspector - Inspect method reserved failed
+2024-08-02 17:36:05,507 (WARNING) - flower.inspector - Inspect method scheduled failed
+2024-08-02 17:36:05,510 (WARNING) - flower.inspector - Inspect method active failed
+2024-08-02 17:36:48,437 (INFO) - django.utils.autoreload - /mnt/c/Users/Ahtesham/Desktop/store/store/settings/common.py changed, reloading.
+2024-08-02 17:36:49,903 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-04 06:20:45,014 (WARNING) - django.request - Not Found: /favicon.ico
+2024-08-04 06:20:52,376 (WARNING) - django.request - Unauthorized: /store/customers/me/
+2024-08-04 06:32:32,642 (WARNING) - django.request - Unauthorized: /store/customers/me/
