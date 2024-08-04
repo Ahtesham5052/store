@@ -153,12 +153,14 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = 'static/'
-STATICFILES_DIRS = os.path.join(BASE_DIR,'static'),
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build')
+STATIC_URL = env.str("STATIC_URL",default='/static/')
+STATIC_ROOT = env.str('STATIC_ROOT', default=BASE_DIR / 'staticfiles')
+WHITENOISE_USE_FINDERS = True
+WHITENOISE_AUTOREFRESH = DEBUG
 
-MEDIA_URL = 'media/'
-MEDIA_ROOT = os.path.join(BASE_DIR,'media') 
+
+MEDIA_ROOT = env.str('MEDIA_ROOT', default=BASE_DIR / 'media')
+MEDIA_URL = env.str("MEDIA_PATH",default='/media/')
 
 CELERY_BROKER_URL = 'redis://localhost:6379/1'
 
@@ -236,3 +238,4 @@ LOGGING = {
     
 }
 
+SECURE_PROXY_SSL_HEADER={"HTTP_X_FORWARDED_PROTO",'https' }
