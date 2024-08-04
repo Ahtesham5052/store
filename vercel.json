@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "your_project/wsgi.py",
+      "src": "store/wsgi.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "your_project/wsgi.py"
+      "dest": "store/wsgi.py"
     }
   ],
   "buildCommand": "apt-get update && apt-get install -y python3-dev default-libmysqlclient-dev build-essential && pip install -r requirements.txt"
