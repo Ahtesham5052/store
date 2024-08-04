@@ -230,3 +230,33 @@ UnboundLocalError: cannot access local variable 'response' where it is not assoc
 2024-08-04 11:43:57,953 (WARNING) - django.request - Not Found: /favicon.ico
 2024-08-04 11:48:23,177 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
 2024-08-04 11:51:07,546 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-04 12:56:59,915 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-04 12:58:46,939 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-04 12:59:09,550 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-04 13:00:42,258 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-04 13:01:51,803 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-04 13:04:24,539 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-04 13:04:34,218 (INFO) - django.utils.autoreload - /mnt/c/Users/Ahtesham/Desktop/store/store/settings/dev.py changed, reloading.
+2024-08-04 13:04:35,205 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-04 13:04:37,592 (INFO) - django.utils.autoreload - /mnt/c/Users/Ahtesham/Desktop/store/store/settings/dev.py changed, reloading.
+2024-08-04 13:04:38,940 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-04 13:04:41,318 (INFO) - django.utils.autoreload - /mnt/c/Users/Ahtesham/Desktop/store/store/settings/dev.py changed, reloading.
+2024-08-04 13:04:42,320 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-04 13:04:43,688 (INFO) - django.utils.autoreload - /mnt/c/Users/Ahtesham/Desktop/store/store/settings/dev.py changed, reloading.
+2024-08-04 13:04:45,195 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-04 13:04:47,636 (INFO) - django.utils.autoreload - /mnt/c/Users/Ahtesham/Desktop/store/store/settings/dev.py changed, reloading.
+2024-08-04 13:04:48,591 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-04 13:04:51,001 (INFO) - django.utils.autoreload - /mnt/c/Users/Ahtesham/Desktop/store/store/settings/dev.py changed, reloading.
+2024-08-04 13:05:07,652 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-04 13:05:35,099 (INFO) - django.utils.autoreload - /mnt/c/Users/Ahtesham/Desktop/store/store/settings/dev.py changed, reloading.
+2024-08-04 13:07:30,617 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-04 13:07:51,723 (INFO) - django.utils.autoreload - /mnt/c/Users/Ahtesham/Desktop/store/store/settings/dev.py changed, reloading.
+2024-08-04 13:08:40,283 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-04 13:09:29,450 (INFO) - django.utils.autoreload - /mnt/c/Users/Ahtesham/Desktop/store/store/settings/dev.py changed, reloading.
+2024-08-04 13:09:30,842 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-04 13:09:35,415 (INFO) - django.utils.autoreload - /mnt/c/Users/Ahtesham/Desktop/store/store/settings/dev.py changed, reloading.
+2024-08-04 13:09:36,379 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-04 13:09:49,182 (INFO) - django.utils.autoreload - /mnt/c/Users/Ahtesham/Desktop/store/store/settings/dev.py changed, reloading.
+2024-08-04 13:09:50,163 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-04 13:10:06,019 (INFO) - django.utils.autoreload - /mnt/c/Users/Ahtesham/Desktop/store/store/settings/dev.py changed, reloading.
+2024-08-04 13:10:07,172 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader

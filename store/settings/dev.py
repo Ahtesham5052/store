@@ -1,9 +1,4 @@
 from .common import *
-
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-@t^wli-mv_h98)vptcmwcnw-*z(ayl61n3+)bs)*jgmf38b4t5'
-DEBUG = True
-
 import os
 import dj_database_url
 import pymysql
@@ -28,3 +23,5 @@ DATABASE_URL = os.getenv('DATABASE_URL')
 if DATABASE_URL:
     DATABASES['default'] = dj_database_url.config(default=DATABASE_URL)
 
+SECRET_KEY = 'django-insecure-@t^wli-mv_h98)vptcmwcnw-*z(ayl61n3+)bs)*jgmf38b4t5'
+DEBUG = True
