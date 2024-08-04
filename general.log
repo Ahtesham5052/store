@@ -260,3 +260,4 @@ UnboundLocalError: cannot access local variable 'response' where it is not assoc
 2024-08-04 13:09:50,163 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
 2024-08-04 13:10:06,019 (INFO) - django.utils.autoreload - /mnt/c/Users/Ahtesham/Desktop/store/store/settings/dev.py changed, reloading.
 2024-08-04 13:10:07,172 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2024-08-04 13:17:21,326 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
